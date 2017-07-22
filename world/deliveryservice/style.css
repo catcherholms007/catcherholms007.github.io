@@ -1,0 +1,509 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-family: arial;
+    background-image: url("./images/background_light.jpg");
+}
+
+UL {
+    list-style-position: inside;
+    margin: 0px;
+    padding: 0px;
+}
+
+#page {
+    margin: 0px auto;
+    width: 900px;
+}
+
+#menu {
+    margin: 0px auto;
+    width: 900px;
+    text-align: right;
+    padding: 30px 0px 0px 0px;
+    top: 0px;
+    position: absolute;
+    z-index: 22;
+    text-shadow: grey 0px 0px 1px;
+}
+
+#topLogo {
+    width: 900px;
+    position: absolute;
+    top: 0px;
+}
+
+#top {
+    margin: 0px;
+    left: 0px;
+    width: 100%;
+    height: 65px;
+    text-align: right;
+    border-bottom: 2px solid white;
+    background: -moz-linear-gradient(top, #fefcea, #f1da36); /* Firefox 3.6+ */
+    /* Chrome 1-9, Safari 4-5 */
+    background: -webkit-gradient(linear, left top, left bottom,
+    color-stop(0%, #fefcea), color-stop(100%, #f1da36));
+    /* Chrome 10+, Safari 5.1+ */
+    background: -webkit-linear-gradient(top, rgb(195, 193, 193), rgb(230, 230, 230));
+    background: -o-linear-gradient(top, #fefcea, #f1da36); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fefcea, #f1da36); /* IE10 */
+    background: linear-gradient(top, #fefcea, #f1da36); /* CSS3 */
+}
+
+#textPriority {
+    width: 900px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+#bottom {
+    height: 150px;
+    background: -webkit-linear-gradient(top, rgb(195, 193, 193), rgb(230, 230, 230));
+    background: -moz-linear-gradient(top, rgb(195, 193, 193), rgb(230, 230, 230)); /* Firefox 3.6+ */
+    /* Chrome 1-9, Safari 4-5 */
+    background: -webkit-gradient(linear, left top, left bottom,
+    color-stop(0%, rgb(195, 193, 193)), color-stop(100%, rgb(230, 230, 230)));
+    /* Chrome 10+, Safari 5.1+ */
+    background: -webkit-linear-gradient(top, rgb(195, 193, 193), rgb(230, 230, 230));
+    background: -o-linear-gradient(top, rgb(195, 193, 193), rgb(230, 230, 230)); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgb(195, 193, 193), rgb(230, 230, 230)); /* IE10 */
+    background: linear-gradient(top, rgb(195, 193, 193), rgb(230, 230, 230)); /* CSS3 */
+    border-top: 2px solid white;
+}
+
+#bottomPage {
+    padding-top: 40px;
+    width: 900px;
+    margin: 0px auto;
+}
+
+#bottomLogo {
+    height: 77px;
+    width: 135px;
+    float: left;
+    margin: 5px;
+}
+
+#bottomMenu {
+    position: absolute;
+    z-index: 11;
+    text-align: right;
+    width: 900px;
+    margin-top: 5px;
+}
+
+#bottomNumbers {
+    position: absolute;
+    z-index: 30;
+    width: 900px;
+    text-align: right;
+    margin-top: 40px;
+    padding-right: 10px;
+}
+
+#copyright {
+    color: rgb(99, 99, 99);
+    position: absolute;
+    z-index: 13;
+    width: 900px;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 13px;
+}
+
+#bottomInfo {
+    color: rgb(51, 51, 51);
+    position: absolute;
+    z-index: 14;
+    text-align: left;
+    font-size: 12px;
+    margin-top: 80px;
+    margin-left: 90px;
+}
+
+#banner {
+    background-image: url('./images/banner_light.jpg');
+    width: 100%;
+    height: 292px;
+    margin-bottom: 20px;
+}
+
+#dostavka {
+    background-image: url('./images/dostavka.png');
+    width: 100%;
+    height: 84px;
+    margin-bottom: 20px;
+}
+
+#dostavkaText {
+    color: rgb(1, 1, 1);
+    width: 440px;
+    float: right;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+#dostavkaItems {
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+#mainL {
+    background-image: url("./images/main.png");
+    width: 27px;
+    height: 32px;
+    position: absolute;
+    z-index: 14;
+    margin-left: 530px;
+    top: 25px;
+}
+
+#workers {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#worker1 {
+    width: 290px;
+    height: 202px;
+    float: left;
+    background-image: url("./images/worker1_light.jpg");
+}
+
+#worker2 {
+    width: 290px;
+    height: 202px;
+    float: left;
+    background-image: url("./images/worker2_light.jpg");
+}
+
+#worker3 {
+    width: 290px;
+    height: 202px;
+    float: left;
+    background-image: url("./images/worker3_light.jpg");
+}
+
+#dostavkaType {
+    width: 98%;
+/ / height: 180 px;
+    background-image: url("./images/dostavkaType.png");
+    margin-bottom: 20px;
+    font-size: 17px;
+    padding: 1%;
+}
+
+#dostavkaTypeItem {
+    width: 280px;
+    float: left;
+}
+
+#line {
+    width: 100%;
+    height: 40px;
+}
+
+#bg {
+    position: absolute;
+    z-index: 40;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+#formBlock {
+    position: absolute;
+    z-index: 70;
+    display: none;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(229, 229, 229);
+    opacity: 0.9;
+    border-radius: 20px;
+    box-shadow: rgb(40, 40, 40) 0px 0px 30px;
+    border: 1px solid rgb(102, 102, 102);
+    width: 500px;
+}
+
+input {
+    box-shadow: rgb(190, 190, 190) 0px 0px 10px;
+    border: 1px solid rgb(202, 202, 202);
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 3px;
+    color: rgb(109, 109, 109);
+}
+
+textarea {
+    height: 100px;
+    width: 100%;
+    color: rgb(109, 109, 109);
+    box-shadow: rgb(190, 190, 190) 0px 0px 10px;
+    border: 1px solid rgb(202, 202, 202);
+    max-width: 100%;
+    padding: 3px;
+    font-family: arial;
+}
+
+p {
+    text-indent: 30px;
+}
+
+#loadingBg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 40;
+}
+
+#other {
+    background-image: url("./images/other.png");
+    width: 98%;
+    margin-bottom: 20px;
+    padding: 1%;
+    font-size: 17px;
+    text-align: justify;
+}
+
+#formBlock .main {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#formBlock .header {
+    width: 100%;
+    background-color: rgb(183, 199, 102);
+    height: 70px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#dostavkaType .wall {
+    width: 15px;
+    height: 202px;
+}
+
+#workers .wall {
+    height: 202px;
+    width: 15px;
+}
+
+#dostavkaItems .wall {
+    height: 52px;
+}
+
+#dostavkaType a.zakazat {
+    bottom: 10px;
+}
+
+.h {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.wall1 {
+    height: 10px;
+    width: 15px;
+    float: left;
+}
+
+.header1 {
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: rgb(47, 47, 47);
+    margin-bottom: 10px;
+    letter-spacing: 0px;
+}
+
+.zakazat {
+    background-image: url("./images/zakazatBg.png");
+    width: 150px;
+    height: 23px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.dostavkaTypeItem .body {
+    width: 100%;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.dostavkaTypeItem .header {
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: rgb(47, 47, 47);
+    margin-bottom: 30px;
+}
+
+.dostavkaTypeItem {
+    width: 280px;
+    float: left;
+}
+
+.wall {
+    width: 20px;
+    float: left;
+}
+
+.dostavkaIT {
+    padding-top: 19px;
+}
+
+.dostavkaIText {
+    text-align: center;
+    width: 100%;
+    font-family: arial;
+    font-weight: bold;
+    color: rbg(47, 47, 47);
+    background-image: url("./images/dostavkaItem.png");
+    height: 53px;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.dostavkaItem1 {
+    background-image: url("./images/dostavkaItem1_light.jpg");
+    width: 208px;
+    float: left;
+    height: 204px;
+    border: 1px solid rgb(67, 67, 67);
+}
+
+.dostavkaItem2 {
+    background-image: url("./images/dostavkaItem2_light.jpg");
+    width: 208px;
+    float: left;
+    height: 204px;
+    border: 1px solid rgb(67, 67, 67);
+}
+
+.dostavkaItem3 {
+    background-image: url("./images/dostavkaItem3_light.jpg");
+    width: 208px;
+    float: left;
+    height: 204px;
+    border: 1px solid rgb(67, 67, 67);
+}
+
+.dostavkaItem4 {
+    background-image: url("./images/dostavkaItem4_light.jpg");
+    width: 208px;
+    float: left;
+    height: 204px;
+    border: 1px solid rgb(67, 67, 67);
+}
+
+a.bottomNumberA {
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+    word-spacing: 7px;
+}
+
+.bottomNumber {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.vr {
+    height: 13px;
+    width: 1px;
+    border-right: 1px solid rgb(99, 99, 99);
+    float: right;
+    margin-left: 10px;
+}
+
+.bar {
+    clear: both;
+}
+
+.vk {
+    background-image: url("./images/vk.png");
+    width: 53px;
+    height: 52px;
+    float: left;
+    margin: 5px;
+}
+
+.vkActive {
+    background-image: url("./images/vkActive.png");
+    width: 53px;
+    height: 52px;
+    float: left;
+    margin: 5px;
+}
+
+.facebook {
+    background-image: url("./images/facebook.png");
+    width: 53px;
+    height: 52px;
+    float: left;
+    margin: 5px;
+}
+
+.facebookActive {
+    background-image: url("./images/facebookActive.png");
+    width: 53px;
+    height: 52px;
+    float: left;
+    margin: 5px;
+}
+
+.textTop {
+    color: rgb(210, 224, 0);
+    float: right;
+    padding: 30px 10px 30px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    background: url("./images/mark.png") 0px 14px no-repeat;
+    padding-left: 35px;
+}
+
+a.topMenu {
+    color: rgb(60, 60, 60);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 0px 10px 0px 10px;
+}
+
+a.zakazatA {
+    text-decoration: none;
+    color: rgb(47, 47, 47);
+    font-weight: bold;
+}
+
+a.topMenu:hover {
+    color: rgb(239, 255, 1);
+}
+
+a.bottomMenu {
+    color: rgb(69, 69, 69);
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 10px;
+    text-shadow: grey 0px 0px 1px;
+    float: right;
+}
+
+a.bottomMenu:hover {
+    color: rgb(1, 1, 1);
+}

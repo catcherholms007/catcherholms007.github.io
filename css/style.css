@@ -23589,3 +23589,15 @@ a.pswp__share--download:hover {
         bottom: 40px;
     }
 }
+
+.works-link a{
+    color: #EF5350;
+    -webkit-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out
+}
+
+.works-link a:hover{
+    color: #9b9b9b;
+    text-decoration: none;
+}
